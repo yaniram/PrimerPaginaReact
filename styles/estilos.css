@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+/* para quitar las viñetas */
+ul {
+    list-style: none;
+    padding: 0px; /* Este me permite quitar los que pone por defecto */
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
