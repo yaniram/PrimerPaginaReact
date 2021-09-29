@@ -15,6 +15,7 @@ ul {
     padding: 10px;
 }
 
+<<<<<<< HEAD
 .buscar {
     background-color: white;
     border: 1px solid gray;
@@ -32,6 +33,9 @@ ul {
 }
 
 .button
+=======
+.buttom
+>>>>>>> 6-crear-boton-login
 {
     /*Este va a tener los diseños estandar que se necesitan */
     border: 0px;
