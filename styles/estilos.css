@@ -15,6 +15,7 @@ ul {
     padding: 10px;
 }
 
+
 .mainButton {
     background-color: pink;
     color: blue;
@@ -31,3 +32,18 @@ ul {
     box-shadow: 3px 3px green;
     transform: scale(1.1);
 }
+
+.secondaryButton {
+    background-color: lightgray;
+    color: black;
+    border: 0px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    }
+
+.secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+    cursor: pointer;
+    box-shadow: 3px 3px lightblue;
+    transform: scale(1.1);
+}   
