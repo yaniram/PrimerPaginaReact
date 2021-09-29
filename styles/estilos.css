@@ -14,3 +14,20 @@ ul {
     justify-content: space-between;
     padding: 10px;
 }
+
+.mainButton {
+    background-color: pink;
+    color: blue;
+    border: 0px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 2px 2px greenyellow;
+    text-decoration-style: solid;
+}
+
+.mainButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+    cursor: pointer;
+    box-shadow: 3px 3px green;
+    transform: scale(1.1);
+}
