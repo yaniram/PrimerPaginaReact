@@ -47,3 +47,18 @@ ul {
 .secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
     box-shadow: 3px 3px lightblue;
 }   
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+  }
+  
+  .buscar:focus-within {
+    border: 1px solid blue;
+  }
+  
+  .buscar > input {
+    outline: none;
+    border: 0px;
+  }
