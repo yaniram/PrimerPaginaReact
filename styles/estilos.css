@@ -15,35 +15,35 @@ ul {
     padding: 10px;
 }
 
-
-.mainButton {
-    background-color: pink;
-    color: blue;
+.buttom
+{
+    /*Este va a tener los diseños estandar que se necesitan */
     border: 0px;
     padding: 10px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 2px 2px greenyellow;
-    text-decoration-style: solid;
+
 }
 
-.mainButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+.button:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
     cursor: pointer;
-    box-shadow: 3px 3px green;
     transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: pink;
+    color: blue;
+}
+
+.mainButton:hover {
+    box-shadow: 2px 2px greenyellow;
 }
 
 .secondaryButton {
     background-color: lightgray;
     color: black;
-    border: 0px;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    }
+}
 
 .secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
-    cursor: pointer;
     box-shadow: 3px 3px lightblue;
-    transform: scale(1.1);
 }   
