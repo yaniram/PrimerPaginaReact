@@ -15,6 +15,51 @@ ul {
     padding: 10px;
 }
 
-.logo {
-    height: 60px;
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
 }
+
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+
+.buscar > input {  /*Esto quiere decir que cualquier input que este por debajo de la clase buscar yo le puedo aplicar los parametros de esta clase */
+    outline: none;
+    border: 0px;
+}
+
+.button
+{
+    /*Este va a tener los diseños estandar que se necesitan */
+    border: 0px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.button:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: pink;
+    color: blue;
+}
+
+.mainButton:hover {
+    box-shadow: 2px 2px greenyellow;
+}
+
+.secondaryButton {
+    background-color: lightgray;
+    color: black;
+}
+
+.secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+    box-shadow: 3px 3px lightblue;
+}   
