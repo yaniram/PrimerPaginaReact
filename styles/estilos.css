@@ -13,15 +13,12 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color:lightgoldenrodyellow;
-    border-bottom: 1px solid lightcoral;
-    box-shadow: 1px 1px rgb(233, 168, 145);
+    background-color: green;
+    border-bottom: 1px solid greenyellow;
+    box-shadow: 1px 1px lightsalmon;
 }
 
-.navbar > li { /*esto me permite centrar los botones*/
-    display: flex;
-    align-items: center;
-}
+
 .logo {
     height: 70px;
 }
@@ -42,8 +39,8 @@ ul {
 }
 
 .mainButton {
-    background-color: pink;
-    color: blue;
+    background-color:yellow;
+    color:darkgoldenrod;
 }
 
 .mainButton:hover {
@@ -51,8 +48,8 @@ ul {
 }
 
 .secondaryButton {
-    background-color: lightgray;
-    color: black;
+    background-color: rgb(77, 194, 139);
+    color: white;
 }
 
 .secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
@@ -61,13 +58,12 @@ ul {
 
 .buscar {
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     padding: 4px;
     border-radius: 8px;
-    width: 300px; /*este me permite alargar el espacio de Busqueda*/
+    width: 300px;
     display: flex;
-    justify-content: space-between;
-
+     justify-content: space-between;
 }
 
 .buscar:focus-within{
@@ -79,6 +75,4 @@ ul {
     border: 0px;
 }
 
-.iconoBusqueda:hover {
-    color: blue;
-}
+
