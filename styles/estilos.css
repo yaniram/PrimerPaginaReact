@@ -13,15 +13,61 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: green;
+    border-bottom: 1px solid greenyellow;
+    box-shadow: 1px 1px lightsalmon;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+.navbar > li {
+    display: flex;
+    align-items: center;
+  }
+
+.logo {
+    height: 70px;
+}
+
+.botonGenerico
+{
+    /*Este va a tener los diseños estandar que se necesitan */
+    border: 0px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.botonGenerico:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color:yellow;
+    color:darkgoldenrod;
+}
+
+.mainButton:hover {
+    box-shadow: 2px 2px greenyellow;
+}
+
+.secondaryButton {
+    background-color: rgb(77, 194, 139);
+    color: white;
+}
+
+.secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
+    box-shadow: 3px 3px lightblue;
+}   
+
 .buscar {
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+     justify-content: space-between;
 }
 
 .buscar:focus-within{
@@ -33,56 +79,40 @@ ul {
     border: 0px;
 }
 
-.button
-=======
-.buttom
->>>>>>> 6-crear-boton-login
-=======
-.button
->>>>>>> 6-crear-boton-login
-{
-    /*Este va a tener los diseños estandar que se necesitan */
-    border: 0px;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
 
-}
-
-.button:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.mainButton {
-    background-color: pink;
+.iconoBusqueda:hover {
     color: blue;
-}
-
-.mainButton:hover {
-    box-shadow: 2px 2px greenyellow;
-}
-
-.secondaryButton {
-    background-color: lightgray;
-    color: black;
-}
-
-.secondaryButton:hover{  /*Esta clase es para que yo le diga como quierop que se mueva el mouse cuando pase por esa zona */
-    box-shadow: 3px 3px lightblue;
-}   
-.buscar {
-    background-color: white;
-    border: 1px solid gray;
-    padding: 4px;
-    border-radius: 8px;
   }
   
-  .buscar:focus-within {
-    border: 1px solid blue;
+  .breedCardContainer {
+    display: flex;
   }
   
-  .buscar > input {
-    outline: none;
-    border: 0px;
+  .breedCard {
+    margin: 10px; /*espacio en que quedan separadas las imagenes*/
+    background-color: lightcoral;
+    box-shadow: 5px 10px 5px lightpink; /*El ultimo numero de pixeles es el difuminado de la sombra*/
+    border-top-right-radius: 10px; /*Estp es para que la imagen quede con bordes redondeados*/
+    border-top-left-radius: 10px;
+  }
+
+  .breedTitle {
+      color:azure;
+      margin: 10px;
+      font-weight: bold;
+      font-size: x-large;
+      
+  }
+  
+  .contenedorImagen {
+    width: 280px;
+    height: 350px;
+    display: flex;
+  }
+  
+  .contenedorImagen > img {
+    object-fit: cover; /*para colocarle un contenedor a la imagen*/
+    width: 100%;
+    border-top-right-radius: 10px; /*Estp es para que la imagen quede con bordes redondeados*/
+    border-top-left-radius: 10px;
   }

@@ -12,54 +12,57 @@
 <body>
     <header>
         <ul class="navbar">
-<<<<<<< HEAD
-            <li>
-
-                <img src="./media/logo flores.png" alt="imagen" class="logo" />
-            </li>
-            <li>
-                <button class="mainButton">Nuevo post </button>
-=======
-<<<<<<< HEAD
+            
             <li>
                 <img src="./media/logo flores.png" alt="imagen" class="logo" />
             </li>
-            <li>
-                <button class="mainButton">Login </button>
->>>>>>> 6-crear-boton-login
-
-                <!--Nuevo Post -->
-                <button class="button mainButton"> Nuevo post</button>
->>>>>>> 6-crear-boton-login
+         
+        <li>
+            <!--Nuevo Post -->
+            <button class="botonGenerico mainButton"> Nuevo post</button>
+        </li>
+        
+            
+        <li>
+            <div class="buscar">
+                <!--Busqueda-->
+                <input placeholder="Buscar nombre de flor"  />
+                <i class="fas fa-search botonGenerico iconoBusqueda"></i>
+            </div>
+                </li>
+        <li>
+            
+            
+            <!--Iniciar Sesión / Login-->
+            <button class="botonGenerico secondaryButton"> Login</button>
+        </li>
+        <li>
+            <!--Registro-->
+            <button class="botonGenerico mainButton"> Registro</button>
             </li>
-            <li>Busqueda</li>
-            <li>
-                <!--Iniciar Sesión / Login-->
-                <button class="button secondaryButton"> Login</button>
-            </li>
-            <li>
-                <!--Registro-->
-                <button class="button mainButton"> Registro</button>
-            </li>
-=======
-            <li>Logo</li>
-            <li>Nuevo Post</li>
-            <li>
-                <div class="buscar">
-                    <!--Busqueda-->
-                    <input placeholder="Buscar nombre de flor"  />
-                    <i class="fas fa-search"></i>
-                </div>
-            </li>
-            <li>Iniciar Sesión</li>
-            <li>Registro</li>
->>>>>>> 8-crear-cuadro-de-busqueda
+        
         </ul>
     </header>
     <main>
-        <section></section>
-        <section></section>
-    </main>
-    <footer></footer>
+        <section>
+            <h1>Clases de Flores</h1>
+            <ul class="breedCardContainer"> <!--esto es para que la imagen me quede una al lado del otro-->
+              <li class="breedCard"> <!--separar la imagenes-->
+                 <div class="contenedorImagen">
+                     <img src="./media/Rosas.jpg" alt="Rosas" />
+                    </div>
+                    <span class="breedTitle">Rosas</span>
+          </li>
+          <li class="breedCard">
+            <div class="contenedorImagen"> <!--contenedor para las imagenes-->
+              <img src="./media/girasoles.jpg" alt="Girasoles" />
+            </div>
+            <span class="breedTitle">Girasoles</span>
+        </li>
+    </ul>
+</section>
+<section></section>
+</main>
+<footer></footer>
 </body>
 </html>
