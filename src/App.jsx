@@ -1,7 +1,8 @@
-import logo from './media/logo flores.png';
-import './styles/styles.css';
-import rosas from './media/rosas.jpg';
-import girasoles from './media/girasoles.jpg';
+import CardClasesFlores from 'components/CardClasesFlores';
+import logo from 'media/logo flores.png';
+import 'styles/styles.css';
+import rosas from 'media/rosas.jpg';
+import girasoles from 'media/girasoles.jpg';
 
 function App() {
   return (
@@ -56,15 +57,6 @@ function App() {
   );
 }
 
-function CardClasesFlores({nombreFlor, imagen }) {
-    return (
-        <li className="breedCard"> 
-            <div className="contenedorImagen">
-                <img src={imagen} alt={nombreFlor} />
-            </div>
-            <span className="breedTitle">{nombreFlor}</span>
-        </li>
-    )
-}
+
 
 export default App;
