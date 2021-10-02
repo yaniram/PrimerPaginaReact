@@ -44,21 +44,9 @@ function App() {
             <h1>Clases de Flores</h1>
            
                 <ul className="breedCardContainer"> 
-                    <li className="breedCard"> 
-                        <div className="contenedorImagen">
-                            <img src={rosas} alt="Rosas" />
-                        </div>
+                    <CardClasesFlores nombreFlor= 'Rosas' imagen={rosas} />
+                    <CardClasesFlores nombreFlor= 'Girasoles' imagen={girasoles} />
                     
-                    <span className="breedTitle">Rosas</span>
-                </li>
-                
-          <li className="breedCard">
-            <div className="contenedorImagen"> 
-              <img src={girasoles} alt="Girasoles" />
-            </div>
-        
-            <span className="breedTitle">Girasoles</span>
-        </li>
     </ul>
 </section>
 <section></section>
@@ -66,6 +54,17 @@ function App() {
 <footer></footer>
 </div>
   );
+}
+
+function CardClasesFlores({nombreFlor, imagen }) {
+    return (
+        <li className="breedCard"> 
+            <div className="contenedorImagen">
+                <img src={imagen} alt={nombreFlor} />
+            </div>
+            <span className="breedTitle">{nombreFlor}</span>
+        </li>
+    )
 }
 
 export default App;
