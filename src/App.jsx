@@ -1,5 +1,7 @@
+import Layout from 'layouts/Layout';
 import Index from 'pages';
 import RosasInfoPage from 'pages/rosas'
+import Girasoles from 'pages/girasoles';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,19 +15,24 @@ function App() {
   return (
     <div className="App">
         <Router>
+          <Layout>
         <Switch>
-        <Route path="/rosas" >
+           <Route path="/rosas" exact>
             <RosasInfoPage />
+            </Route>
+           <Route path="/girasoles" exact>
+            <Girasoles />
         
             </Route>
-            <Route path="/" >
+            <Route path="/" exact>
         <Index />
-            </Route>
+       </Route>
+     </Switch>
+       </Layout>
         
-        </Switch>
-        </Router>
+   </Router>
 
-    </div>
+ </div>
   );
 }
 

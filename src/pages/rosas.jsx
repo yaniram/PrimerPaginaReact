@@ -1,5 +1,10 @@
 function RosasInfoPage() {
-    return <div>Esta es la pagina de info de rosas</div>
+    return (
+        
+            <div>informacion sobre las Rosas</div>
+       
+
+    );
 }
 
 export default RosasInfoPage;
